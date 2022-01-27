@@ -77,3 +77,30 @@ int main()
 	}
 
 	return 0;
+	
+	#include <stdio.h>
+
+int main()
+{
+	int i = 1;
+	while (i<=100)
+	{
+		if (i % 2 == 1)
+			printf("%d ", i);
+		i++;
+	}
+	return 0;
+}\\判断0到100数的奇数
+int main()
+{
+	int i;
+	scanf_s("%d", &i);
+	if (i % 2 == 1)
+	{
+		printf("这个数是奇数");
+	}
+	else
+		printf("这个数不是奇数");
+	return 0;
+}//判断一个数是奇数
+
